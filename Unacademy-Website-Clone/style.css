@@ -1,0 +1,1329 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Merriweather:wght@700&family=PT+Serif:wght@700&family=Poppins&family=Roboto&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins:wght@300;400&display=swap");
+
+/* To giving margin 0 & padding 0 for body */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* for all href tag */
+a {
+  text-decoration: none;
+}
+
+/* This is a heading section */
+.header {
+  height: 4.5rem;
+  width: auto;
+  border-style: solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: rgb(237, 232, 232);
+  border-bottom-width: 0.1rem;
+  align-items: center;
+  display: flex;
+}
+
+/* company logo styling */
+.company-logo {
+  margin-left: 6.8rem;
+  cursor: pointer;
+}
+
+/* for home page gift */
+.home-page-gift {
+  height: 1.15rem;
+  border-style: solid;
+  border-color: rgb(236, 232, 232);
+  border-radius: 50%;
+  border-width: 0.1rem;
+  margin-left: 43.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.home-page-gift:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+/* for login button */
+.login-button {
+  margin-left: 0.8rem;
+
+  border: 0.1rem solid rgb(102, 96, 96);
+  border-radius: 0.3rem;
+  height: 2.4rem;
+  width: 6.8rem;
+  text-align: center;
+}
+
+.login-button:hover {
+  background: #f7f9fb;
+}
+
+.login {
+  padding: 0.3rem;
+  color: rgb(101, 95, 95);
+  margin-top: 0.4rem;
+  font-family: sans-serif;
+  font-size: 13.6px;
+}
+
+/* for join button */
+.join-button {
+  margin-left: 0.8rem;
+  background: #364049;
+  border: 0.1rem solid #3c4852;
+  border-radius: 0.3rem;
+  height: 2.4rem;
+  width: 6.8rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.join {
+  padding: 0.1rem;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 13.6px;
+  margin-top: 0.6rem;
+}
+
+/* hero section */
+.hero-section {
+  height: 680px;
+  width: auto;
+  margin-left: 6.8em;
+  margin-right: 5.5em;
+  padding-top: 10px;
+}
+
+.hero-section-text {
+  width: 550px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+  padding: 10px;
+  padding-left: 0;
+  margin-top: 100px;
+  color: #3c4852;
+}
+
+.hero-section-texttwo {
+  color: #3c4852;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+span {
+  color: #08bd80;
+}
+
+/* for enter phone number */
+.country-number-id {
+  width: 50px;
+  height: 49px;
+  margin-top: 25px;
+  background: white;
+  cursor: pointer;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+
+.phone-nmbr {
+  padding-left: 10px;
+  height: 45px;
+  margin-left: -50px;
+  border-radius: 5px;
+  border-left: none;
+  width: 390px;
+  font-weight: bold;
+  background: fixed;
+  border: 2px solid #3c4852;
+  padding-left: 60px;
+}
+
+/* for otp verification */
+.otp {
+  font-family: Verdana;
+  color: #7a8b94;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+/* for join button two */
+.join-buttontwo {
+  background: #364049;
+  color: #ffffff;
+  height: 45px;
+  width: 455px;
+  font-weight: 400;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: roboto, sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* for big home image one */
+.image-one {
+  margin-left: 585px;
+  margin-top: -430px;
+}
+
+/* for goal */
+.select-goal {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 30px;
+  color: #3c4852;
+  margin-top: 80px;
+}
+
+/* for total number of exam */
+.number-of-exam {
+  margin-top: 10px;
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 13px;
+  color: #3c4852;
+}
+/* I'm missing magnify search icon */
+
+/* for input no-2 */
+.input-two {
+  height: 45px;
+  width: 1120px;
+  padding-left: 25px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+/* for goals */
+.about-goals {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 25px;
+  word-spacing: 5px;
+  color: #3c4852;
+  margin-top: 20px;
+}
+
+.popular-goals {
+  margin-left: 6.8em;
+  height: 40px;
+  width: 180px;
+  max-width: auto;
+}
+
+/* for popular goal div section */
+.goal-container {
+  height: 800px;
+  width: 1150px;
+  margin-top: 28px;
+}
+
+/* divone */
+.goal-divone {
+  padding: 0;
+  margin: 0;
+  height: 280px;
+  width: 266px;
+  border-radius: 8px;
+  border: 1px solid rgb(237, 232, 232);
+}
+
+.goal-divone:hover,
+.goal-divtwo:hover,
+.goal-divthree:hover,
+.goal-divfour:hover,
+.goal-divfive:hover,
+.goal-divsix:hover,
+.goal-divseven:hover,
+.goal-diveight:hover {
+  background: rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+/* divtwo */
+.goal-divtwo {
+  height: 280px;
+  width: 266px;
+  border-color: rgb(237, 232, 232);
+  margin-left: 294px;
+  margin-top: -282px;
+  border-radius: 8px;
+  border: 1px solid rgb(237, 232, 232);
+}
+
+/* divthree */
+.goal-divthree {
+  height: 280px;
+  width: 266px;
+  margin-left: 586px;
+  margin-top: -282px;
+  border-radius: 8px;
+  border: 1px solid rgb(237, 232, 232);
+}
+
+/* divfour */
+.goal-divfour {
+  height: 280px;
+  width: 266px;
+  margin-left: 882px;
+  margin-top: -282px;
+  border-radius: 8px;
+  border: 1px solid rgb(237, 232, 232);
+}
+
+/* divfive */
+.goal-divfive {
+  height: 280px;
+  width: 266px;
+  margin-top: 30px;
+  border-radius: 8px;
+  border: 1px solid rgb(237, 232, 232);
+}
+
+/* divsix */
+.goal-divsix {
+  height: 280px;
+  width: 266px;
+  margin-top: 30px;
+  margin-left: 294px;
+  margin-top: -282px;
+  border-radius: 8px;
+  border: 1px solid rgb(237, 232, 232);
+}
+
+/* divseven */
+.goal-divseven {
+  height: 280px;
+  width: 266px;
+  margin-top: 30px;
+  margin-left: 586px;
+  margin-top: -282px;
+  border-radius: 8px;
+  border: 1px solid rgb(237, 232, 232);
+}
+
+/* diveight */
+.goal-diveight {
+  height: 280px;
+  width: 266px;
+  margin-top: 30px;
+  margin-left: 882px;
+  margin-top: -282px;
+  border-radius: 8px;
+  border: 1px solid rgb(237, 232, 232);
+}
+
+/* for divone image section */
+.divone-image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 75px;
+  height: 80px;
+  width: 80px;
+}
+
+/* div one text section */
+.divone-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3c4852;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* for div two image section */
+.divtwo-image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 75px;
+  height: 80px;
+  width: 80px;
+}
+
+/* for div two image section */
+.divtwo-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3c4852;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* for div three image seciton */
+.divthree-image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 75px;
+  height: 80px;
+  width: 80px;
+}
+
+/* for div three text section */
+.divthree-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3c4852;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* for div four image section */
+.divfour-image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 75px;
+  height: 80px;
+  width: 80px;
+}
+
+/* for div four text section */
+.divfour-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3c4852;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* for div five image section */
+.divfive-image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 75px;
+  height: 80px;
+  width: 80px;
+}
+
+/* for div five text section */
+.divfive-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3c4852;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* for div six image section */
+.divsix-image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 75px;
+  height: 80px;
+  width: 80px;
+}
+
+/* for div six text section */
+.divsix-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3c4852;
+  margin-top: 20px;
+  width: 180px;
+  text-align: center;
+  margin-left: 42px;
+}
+
+/* for div seven image section  */
+.divseven-image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 75px;
+  height: 80px;
+  width: 80px;
+}
+
+/* for div seven text section */
+.divseven-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3c4852;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* for div eight ya last divimage section */
+.diveight-image {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 75px;
+  height: 80px;
+  width: 80px;
+}
+
+/* for div eight ya last div text section */
+.diveight-text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3c4852;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* for all goals */
+.see-all-goals {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  margin-top: 34px;
+  border: 1px solid #3c4852;
+  width: 196px;
+  height: 48px;
+  color: #3c4852;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 8px;
+}
+
+/* hover  */
+.see-all-goals:hover {
+  background: rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+/* company introduction section */
+.company-introduction {
+  height: 450px;
+  width: 1145px;
+  margin-top: 790px;
+  margin-left: 110px;
+  border-radius: 8px;
+  box-shadow: 0px 16px 32px 0px rgb(209, 200, 200);
+  background: #ffffff;
+  box-shadow: #f0f4f7;
+}
+
+/* main image */
+.main-image {
+  width: 433px;
+  height: 370px;
+  margin-left: 40px;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+/* for text */
+.main-text-container {
+  height: 375px;
+  width: 400px;
+  margin-left: 510px;
+  margin-top: -375px;
+}
+
+/* introduction text */
+.introduction {
+  font-family: roboto;
+  font-weight: bold;
+  color: rgb(45, 129, 247);
+}
+
+/* star image */
+.star-image {
+  display: block;
+  height: 12px;
+  width: 12px;
+  margin-left: 94px;
+  margin-top: -12px;
+}
+
+/* about company section */
+.about-company,
+.about-company2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #3c4852;
+}
+
+/* address section */
+.address {
+  font-family: poppins;
+  color: #7a8b94;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+/* check box & text section 1*/
+.check-box-image {
+  margin-top: 20px;
+}
+
+.check-box-text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: -22px;
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: 100;
+  color: rgb(60, 72, 82);
+}
+/* check box & text section 2*/
+.check-box-image2 {
+  margin-top: 20px;
+}
+
+.check-box-text2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: -22px;
+  margin-left: 30px;
+  color: rgb(60, 72, 82);
+}
+/* check box & text section 3*/
+.check-box-image3 {
+  margin-top: 20px;
+}
+
+.check-box-text3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: -22px;
+  margin-left: 30px;
+  color: rgb(60, 72, 82);
+}
+
+/* for centre button */
+.centre {
+  margin-top: 30px;
+  border: 2px solid rgb(60, 72, 82);
+  border-radius: 5px;
+  width: 176px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  background: rgb(54, 64, 73);
+  color: rgb(255, 255, 255);
+}
+.centre:hover {
+  background: rgb(60, 72, 82);
+  cursor: pointer;
+}
+
+/* for live class */
+.live-class {
+  height: 600px;
+  width: 1150px;
+  margin-top: 80px;
+  margin-left: 110px;
+}
+
+/* for image */
+.live-image {
+  height: 252px;
+  width: 336px;
+}
+
+.syllabus-image {
+  height: 252px;
+  width: 336px;
+  margin-left: 65px;
+}
+
+.learn-image {
+  height: 252px;
+  width: 336px;
+  margin-left: 65px;
+}
+
+/* daily classes section one */
+.daily-classes {
+  height: 100px;
+  width: 350px;
+}
+
+.classes {
+  margin-top: 30px;
+  font-family: poppins;
+  font-weight: bold;
+  color: #323c45;
+}
+
+.classess-about {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 400;
+  color: #3c4852;
+  margin-top: 20px;
+}
+
+/* daily classes section two */
+.classes-practice {
+  margin-left: 400px;
+  margin-top: -100px;
+  font-family: poppins;
+  font-weight: bold;
+  color: #323c45;
+}
+
+.practice-about {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 400;
+  color: #3c4852;
+  margin-top: 20px;
+  margin-left: 400px;
+  width: 350px;
+}
+
+/* daily classes section three */
+
+.learn-anytime {
+  margin-left: 810px;
+  font-family: poppins;
+  font-weight: bold;
+  color: #323c45;
+  margin-top: -120px;
+  height: 40px;
+  padding: 0;
+}
+
+.learn-about {
+  margin-left: 810px;
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 400;
+  color: #3c4852;
+  margin-top: 10px;
+}
+
+/* for downloading app section */
+.app-section {
+  height: 790px;
+  width: 1145px;
+  margin-left: 110px;
+}
+
+.app-phone-image {
+  height: 404px;
+  width: 381px;
+  margin-left: 570px;
+  margin-top: 55px;
+}
+
+.learning-app {
+  color: #3c4852;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  font-family: sans-serif;
+  font-weight: 700;
+  height: 96px;
+  width: 369px;
+  margin-top: -360px;
+  margin-left: 90px;
+}
+
+.about-lessons {
+  font-size: 20px;
+  width: 400px;
+  height: 52px;
+  font-family: poppins;
+  font-weight: normal;
+  letter-spacing: 0.005em;
+  color: #3f4c57;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+/* download link section */
+.app-store-image {
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 160px;
+  height: 48px;
+}
+
+.play-store-image {
+  margin-left: 30px;
+  width: 160px;
+  height: 48px;
+}
+
+/* learning section */
+.learn-with-unacademy {
+  height: 96px;
+  width: 465px;
+  font-family: poppins;
+  font-size: 38px;
+  line-height: 120%;
+  color: #3c4852;
+  margin-top: 425px;
+  font-weight: bolder;
+}
+
+/* seciton */
+.section {
+  width: 1145px;
+  margin-left: 110px;
+  margin-top: -425px;
+  height: 710px;
+}
+
+.section-two {
+  height: 286px;
+  width: 465px;
+}
+
+/* section-two */
+.doubt-section-text {
+  margin-top: 16px;
+  color: #3c4852;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: poppins;
+  height: 64px;
+  width: 364px;
+}
+
+.start-learning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #05b67be2;
+  height: 64px;
+  width: 194px;
+  margin-top: -60px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #08bd80;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.start-learning:hover {
+  background-color: #05b67a;
+}
+
+/* exam category section */
+.exam-category {
+  width: 592px;
+  height: 586px;
+  margin-left: 553px;
+  margin-top: -415px;
+}
+
+/* first div */
+.exam-category-one {
+  height: 185px;
+  width: 280px;
+}
+
+.text {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  padding-top: 25px;
+}
+
+.number-of-exam-categories {
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: -10px;
+  color: #3c4852;
+}
+
+.number-of-exam-categories-two {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -42px;
+  margin-left: 58px;
+  color: #05b67a;
+}
+
+.categories-image {
+  margin-left: -4px;
+  margin-top: -110px;
+}
+
+/* second div section */
+.educators {
+  height: 185px;
+  width: 280px;
+  margin-left: 310px;
+  margin-top: -80px;
+}
+.educator-text {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  padding-top: 25px;
+}
+
+.numbr-of-educators {
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: -10px;
+  color: #3c4852;
+}
+.numbr-of-educators-two {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -40px;
+  margin-left: 72px;
+  color: #05b67a;
+}
+
+.educator-image {
+  margin-top: -110px;
+  margin-left: -5px;
+}
+
+/* third div section */
+.daily-live-classes {
+  height: 185px;
+  width: 280px;
+  margin-top: -80px;
+}
+
+.live-class-text {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  padding-top: 25px;
+}
+
+.numbr-of-daily-liv-classes {
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: -10px;
+  color: #3c4852;
+}
+
+.numbr-of-daily-liv-classes-two {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -40px;
+  margin-left: 80px;
+  color: #05b67a;
+}
+
+.daily-live-classes-image {
+  margin-top: -110px;
+  margin-left: -5px;
+}
+
+/* fonth div section */
+.video-lessons {
+  height: 185px;
+  width: 280px;
+  margin-left: 310px;
+  margin-top: -85px;
+}
+.video-lessons-text {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  padding-top: 25px;
+}
+
+.numbr-of-video-lessons {
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: -10px;
+  color: #3c4852;
+}
+
+.numbr-of-video-lessons-two {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -40px;
+  margin-left: 68px;
+  color: #05b67a;
+}
+
+.video-lessons-image {
+  margin-top: -110px;
+  margin-left: -5px;
+}
+
+/* fifth div section */
+.mins-watched {
+  height: 185px;
+  width: 280px;
+  margin-top: -80px;
+}
+
+.mins-watch-text {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+  padding-top: 25px;
+}
+.numbr-of-mins-watched {
+  font-family: roboto;
+  font-size: 32px;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-top: -10px;
+  color: #3c4852;
+}
+
+.numbr-of-mins-watched-two {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -40px;
+  margin-left: 85px;
+  color: #05b67a;
+}
+
+.mins-watched-image {
+  margin-top: -110px;
+  margin-left: -5px;
+}
+/* footer section */
+.footer {
+  width: 1145px;
+  height: 242px;
+  margin-left: 110px;
+}
+
+.footer-div-one {
+  height: 164px;
+  width: 300px;
+}
+
+.Unacademy-logo {
+  height: 26px;
+  width: 176px;
+}
+
+.footer-text {
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #7a8b94;
+  margin-top: 12px;
+}
+
+.footer-app-store-image {
+  height: 32px;
+  width: 98.5px;
+  margin-top: 28px;
+}
+
+.footer-play-store-image {
+  height: 34px;
+  width: 115px;
+  margin-left: 5px;
+}
+
+/* footer div two section */
+.footer-div-two {
+  height: 521px;
+  width: 615px;
+  margin-left: 530px;
+  margin-top: -164px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+  margin-top: 40px;
+  display: flexbox;
+  margin-left: 0px;
+}
+
+li {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  line-height: 150%;
+}
+
+.one li {
+  margin-left: -70px;
+  margin-top: 10px;
+}
+.two-li {
+  margin-left: 25px;
+}
+
+.three li {
+  display: flexbox;
+}
+/* for hovering */
+li a:hover {
+  color: #3c4852;
+}
+
+/* changing a href link default color */
+li a {
+  color: #7a8b94;
+}
+
+.company {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  color: #3c4852;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.help-support {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  color: #3c4852;
+  position: absolute;
+  margin-top: 10px;
+  height: 20px;
+}
+
+.second-company {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  color: #3c4852;
+  margin-top: 10px;
+  margin-left: 40px;
+  height: 2px;
+}
+
+/* differnt app logo */
+.learner-app-logo {
+  margin-left: 40px;
+  margin-top: -50px;
+}
+
+.educator-app-logo {
+  margin-left: 40px;
+}
+
+.parent-app-logo {
+  margin-left: 40px;
+}
+
+/* footer div two */
+.next-footer {
+  height: 300px;
+  width: 1145px;
+  margin-top: -280px;
+}
+
+.reach-out-text {
+  margin: 0;
+  color: #3c4852;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.reach-out-text-two {
+  margin: 0;
+  color: #7a8b94;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  height: 40px;
+  width: 300px;
+}
+
+i,
+.phone-icon {
+  margin-left: 0px;
+  margin-top: 22px;
+  font-size: 14px;
+  color: #3c4852;
+}
+
+.call {
+  margin-left: 16px;
+  margin-top: -16px;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important ;
+  font-weight: bold;
+}
+
+.phone-call-numbr {
+  margin-left: 60px;
+  margin-top: -18px;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-weight: bold;
+}
+
+a,
+.call,
+.phone-call-numbr {
+  color: #3c4852;
+}
+
+/* next footer-col-two */
+.next-footer-two {
+  height: 521px;
+  width: 615px;
+  margin-left: 530px;
+  margin-top: -164px;
+}
+
+.nft-popular-goals-text {
+  color: #3c4852;
+  margin-top: 100px;
+  margin-left: 80px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important ;
+}
+
+.p-goal:hover {
+  color: #7a8b94;
+}
+.p-goal {
+  display: flex;
+  margin-left: 80px;
+  margin-top: -30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #7a8b94;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important ;
+}
+
+.nft-unacademy-centre-text {
+  color: #3c4852;
+  margin-left: 240px;
+  margin-top: -188px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important ;
+}
+
+.u-centre {
+  display: flex;
+  position: absolute;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #7a8b94;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important ;
+  margin-left: 240px;
+  margin-top: -30px;
+}
+
+.nft-study-marterial-text {
+  color: #3c4852;
+  margin-left: 410px;
+  margin-top: -24px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important ;
+}
+
+.s-material {
+  display: flex;
+  position: absolute;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #7a8b94;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important ;
+  margin-left: 410px;
+  margin-top: -30px;
+  width: 150px;
+}
+
+.footer-line {
+  border-width: 0px 0px 1px;
+  border-style: solid;
+  border-color: #e9eef2;
+  margin-top: 30px;
+}
+
+/* for company copyright claim */
+.copyright-text {
+  color: #7a8b94;
+  margin-top: 40px;
+  width: 300px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+/* for social media link  */
+.social-media-section {
+  margin-top: -38px;
+  text-align: right;
+  font-size: 12px;
+}
